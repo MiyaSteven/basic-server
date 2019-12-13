@@ -11,7 +11,3 @@ const PORT = process.env.PORT;
 app.listen(PORT, () => {
     console.log(`listening on ${PORT}`);
 });
-
-// app.get('/', (request, response) => {
-//     response.send('Hello from the back side');
-// })
