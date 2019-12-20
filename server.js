@@ -8,6 +8,8 @@ app.use(express.static('./public'));
 
 const PORT = process.env.PORT;
 
-app.listen(PORT, () => {
-    console.log(`listening on ${PORT}`);
-});
+// app.listen(PORT, () => {
+//     console.log(`listening on ${PORT}`);
+// });
+
+app.listen(PORT, () => console.log(`App is listening on port ${PORT}`));
